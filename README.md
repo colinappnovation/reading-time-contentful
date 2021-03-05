@@ -1,0 +1,1 @@
+# Reading Time Estimation Extension for Contentful
