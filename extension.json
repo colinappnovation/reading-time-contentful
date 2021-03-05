@@ -1,0 +1,25 @@
+{
+  "id": "reading-time",
+  "name": "reading-time",
+  "srcdoc": "./build/index.html",
+  "fieldTypes": [
+    "Symbol"
+  ],
+  "parameters": {
+    "instance": [
+      {
+        "id": "fieldAttached",
+        "type": "Symbol",
+        "name": "Estimation Field",
+        "description": "Corresponding Field ID to use for reading time estimation. Must be of type RichText.",
+        "required": true
+      },
+      {
+        "id": "wordsPerMinute",
+        "type": "Number",
+        "name": "Words Per Minute",
+        "description": "The words per minute an average reader can read ( default: 200 )"
+      }
+    ]
+  }
+}
